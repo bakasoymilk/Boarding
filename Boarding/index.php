@@ -4,27 +4,29 @@
 		<title>Boarding School</title>
 		<style>
 			@font-face{
-				font-family: AppleFont;
-				src: url('helveticaneue-webfont');
+				font-family: CenturyGothic;
+			  src: url('GOTHIC');
 			}
 			body{
+        width: 100%;
+        height: auto;
 				font-weight: bold;
 				margin: 0;
 				padding: 0;
 				background-image: url('background.jpg');
-				background-size: 2000px 2000px;
+				background-size: 1500px 1500px;
 				background-repeat: no-repeat;
 				color: white;
-				font-family: AppleFont,HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+				font-family: CenturyGothic, GOTHIC, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 				font-weight: lighter;
 			}
 			.header{
 				overflow: auto;
 				width: 100%;
 				position: relative;
-				height: 20%;
+				height: 15%;
 				background-color: rgba(0,0,0,0.9);
-				font-size: 40px;
+				font-size: 45px;
 			}
 			.header div{
 				float: left;
@@ -51,7 +53,7 @@
 			.content .fbs{
 				padding: 3%;
 				margin-bottom: 3%;
-				background-color: rgba(0,0,0,0.9);
+				background-color: rgba(0,0,0,0.6);
 			}
 
 			.content .fbs .facebook{
@@ -75,7 +77,7 @@
 
 			.content .whiteboard{
 				padding: 3%;
-				background-color: rgba(0,0,0,0.9);
+				background-color: rgba(0,0,0,0.6);
 				margin-bottom: 2%;
 			}
 
@@ -92,7 +94,7 @@
 			.weather{
 				margin-bottom: 5%;
 				height: 20%;
-				background-color: rgba(0,0,0,0.9);
+				background-color: rgba(0,0,0,0.6);
 				overflow: auto;
 				padding-top: 2%;
 				padding-bottom: 2%;
@@ -121,8 +123,8 @@
 				font-size: 25px;
 			}
 			.news{
-				height:80%;
-				background-color: rgba(0,0,0,0.9);
+				height:auto;
+				background-color: rgba(0,0,0,0.6);
 			}
 			.news .item{
 				padding: 2%;
@@ -158,13 +160,14 @@
  		<div class="content">
  			<div class="fbs" id="fbs">
  				<div class="fb">
- 					<h1>Fight for your Examination!!</h1>
+ 					<h1>Type some thing here~~~</h1>
  				</div>
  			</div>
  			<div class="whiteboard">
- 				<div class="head">White Board </div>
+ 				<div class="head">White Board</div>
+      </br>
  				<div class="news">
- 					<div class="title">Remember to find your academic advicer!</div>
+ 					<div class="title">content of whiteboard~~~</div>
  				</div>
  			</div>
  		</div>
